@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <style>
+            body{
+                font: Arial;
+                background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(29, 2, 97));
+            }
+            .box{
+                position: absolute;
+                top: 50%;
+                left: 50%;  
+                transform: translate(-50%, -50%);
+                background-color: rgba(53, 2, 146, 0.8);
+                padding: 10px;
+                border-radius: 10px;
+                width: 20%;
+                color: white;
+            }
+            fieldset{
+                border: 3px solid rgb(116, 66, 255);
+            }
+            legend{
+                border: 1px solid rgb(116, 66, 255);
+                padding: 10px;
+                border-radius: 10px;
+                text-align: center;
+                background-color: rgb(116, 66, 255);
+            }
+            .inputBox{
+                position: relative;
+            }
+            .inputUser{
+                background-color: none;
+                border: none;
+                border-bottom: 1px solid;
+                outline: none;
+                color: black;
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 2px;
+            }
+            .labelInput{
+                font: normal 13pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <form action="" id="formulario" onsubmit="return valida()">
+                <fieldset>
+                    <legend><b>Cadastro</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome">
+                        <label for="nome" class="labelInput">Nome</label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" class="inputUser" required placeholder="usuario@email.com">
+                        <label for="email" class="labelInput">Email</label>
+                        
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required placeholder="99999-9999">
+                        <label for="telefone" class="labelInput">telefone</label>
+                        
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="password" name="senha" id="senha" class="inputUser" required>
+                        <label for="senha" class="labelInput">Senha</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" onclick="valida()" value="Cadastre-se">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="lnome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome</label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="password" name="senha" id="lsenha" class="inputUser" required>
+                        <label for="senha" class="labelInput">Senha</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="button" value="Login" onclick="valida()">
+                    </div>
+                    <br>
+                </fieldset>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IFflix</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <img id="logo" src="midia/logo.png" alt="">
+        <nav>
+            <form>
+
+                <ul>
+                <a id="menu" href="#">Home</a>
+                <a id="menu" href="#cartaz" >Em Cartaz</a>
+                <a id="menu" href="#bre">Em Breve</a>
+                <a id="menu" href="formulario.html" target="_blank">Cadastro</a>
+                <a id="menu" href="formulario.html" target="_blank">Login</a>
+                <a id="menu" href="#desenvolvedores">Contato</a>
+                </ul>
+
+            </form>
+        </nav>
+        <div id="linha-horizontal"></div>
+        <!--Aqui acaba as tag do menu de navegaçao-->
+
+        <header>
+            <img src="midia/banner.png" alt="">
+        </header>
+        <div id="linha-horizontal"></div>
+        <main id="cartaz">
+            <h1>Em Cartaz</h1>
+            <div id="em-cartaz">
+                <div class="filmes">
+                    <div class="card-filme">
+                      <img class="image" id="f1" onmouseenter="entrar1()" onmouseout="sair1()" src="midia/adaonegro.jpeg"  alt="filme-1"/>
+                      <a class="linkfilme" href="https://www.youtube.com/watch?v=I3CpaqCK9B0" target="_blank"><h2>Adao Negro</h2></a>
+                    </div>
+                </div>
+
+                <div class="filmes">
+                    <div class="card-filme">
+                      <img class="image" id="f2" src="midia/minions.jpeg" alt="filme-2"  onmouseenter="entrar2()" onmouseout="sair2()"/>
+                    <a class="linkfilme" href="https://www.youtube.com/watch?v=kgj3cuWO2pg" target="_blank"><h2>Minions 2</h2></a>
+                    </div>
+                </div>
+    
+                <div class="filmes">    
+                    <div class="card-filme">
+                      <img class="image" id="f3" src="midia/thor.jpeg" alt="filme-3" name="foto" onmouseenter="entrar3()" onmouseout="sair3()"/>
+                      <a class="linkfilme" href="https://www.youtube.com/watch?v=1c_W_4cNLn0" target="_blank"><h2>Thor 3</h2></a>
+                    </div>
+                </div>
+            </div>
+            <p id="bre"></p>
+            <h1>Em Breve</h1>
+            <div id="em-breve">
+                <div class="filmes">
+                    <div class="card-filme">
+                      <img class="image" src="midia/jungle.jpeg" alt="filme-1" id="f4" onmouseenter="entrar4()" onmouseout="sair4()"/>
+                      <a class="linkfilme" href="https://www.youtube.com/watch?v=81iqHKqQ1ss" target="_blank"><h2>Jungle Cruise</h2></a>
+                    </div>
+                </div>
+
+                <div class="filmes">
+                    <div class="card-filme">
+                      <img class="image" src="midia/gatodebotas.jpeg" alt="filme-2" id="f5" onmouseenter="entrar5()" onmouseout="sair5()" />
+                      <a class="linkfilme" href="https://www.youtube.com/watch?v=qtHcEfpYIow" target="_blank"><h2>Gato de Botas 2</h2></a>
+                    </div>
+                </div>
+
+                <div class="filmes">    
+                    <div class="card-filme">
+                      <img class="image" src="midia/pantera.jpg" alt="filme-3" id="f6" onmouseenter="entrar6()" onmouseout="sair6()"/>
+                      <a class="linkfilme" href="https://www.youtube.com/results?sp=mAEB&search_query=wakanda+forever+trailer" target="_blank"><h2>Wakanda Forever</h2></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </main>
+
+        <section>
+            <h1>Combos</h1>
+            <img class="promo" src="midia/promocao1.png" alt="">
+            <img class="promo" src="midia/promocao2.png" alt="">
+            <img class="promo" src="midia/promocao3.png" alt="">
+            <img class="promo" src="midia/promocao4.png" alt="">
+        </section>
+
+        <footer id="desenvolvedores">
+            <p>Desenvolvedores</p>
+        </footer>
+        
+        <footer id="ig">
+            <ul>
+          
+            <a href="https://www.instagram.com/cauanmassino/" target="_blank">&copy;Cauan Massino</a>
+            
+            </ul>
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+</html>
