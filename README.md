@@ -1,10 +1,10 @@
-**IFflix 🎬**
+**IF flix 🎬**
 
 Bem-vindo ao IFflix! Este projeto é um exemplo de site que ilustra filmes em cartaz no cinema e futuros lançamentos. O site foi desenvolvido utilizando HTML, CSS e JavaScript, e inclui funcionalidades simples de navegação e interação visual.
 
 **📖 Sobre o Projeto**
 
-O IFflix é um site fictício que exibe cartazes de filmes que estão em cartaz e que serão lançados em breve. O site oferece links para trailers dos filmes, uma seção de promoções e uma área de contato para desenvolvedores.
+O IF flix é um site fictício que exibe cartazes de filmes que estão em cartaz e que serão lançados em breve. O site oferece links para trailers dos filmes, uma seção de promoções e uma área de contato para desenvolvedores.
 
 **Funcionalidades**
 
