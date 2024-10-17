@@ -41,6 +41,3 @@ Implementação de um sistema de login e cadastro real.
 Adição de uma seção de avaliação dos filmes.
 Integração com APIs para exibir informações de filmes em tempo real.
 
-**📞 Contato**
-
-Desenvolvedor: Cauan Massino
